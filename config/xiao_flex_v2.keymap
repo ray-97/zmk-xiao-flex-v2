@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -37,12 +38,12 @@
 
         layer_2 {
             bindings = <
-&kp ESC    &trans             &trans                &trans                 &trans          &trans               &trans  &trans            &trans            &trans             &trans             &trans
-&kp TAB    &kp QUESTION       &kp PIPE              &kp MINUS              &kp PLUS        &kp DOUBLE_QUOTES    &trans  &trans            &trans            &trans             &trans             &trans
-&kp TILDE  &kp BACKSLASH      &kp EQUAL             &kp COLON              &kp SEMICOLON   &kp DOUBLE_QUOTES    &trans  &trans            &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans             &trans
-&trans     &kp LG(BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp SINGLE_QUOTE     &trans  &kp LEFT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans     &none              &none                 &none                  &none           &none                &trans  &trans            &kp LESS_THAN     &kp GREATER_THAN   &trans             &trans
-&trans     &trans             &trans                &bootloader            &trans          &trans               &trans  &trans            &trans            &trans             &trans             &trans
+&kp ESC    &trans             &trans                &trans                 &trans          &trans               &trans  &trans  &trans            &trans             &trans  &trans
+&kp TAB    &kp QUESTION       &kp PIPE              &kp MINUS              &kp PLUS        &kp DOUBLE_QUOTES    &trans  &trans  &kp LEFT_BRACE    &kt RIGHT_BRACE    &trans  &trans
+&kp TILDE  &kp BACKSLASH      &kp EQUAL             &kp COLON              &kp SEMICOLON   &kp DOUBLE_QUOTES    &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans     &kp LG(BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp SINGLE_QUOTE     &trans  &none   &kp LESS_THAN     &kp GREATER_THAN   &none   &trans
+&trans     &none              &none                 &none                  &none           &none                &trans  &trans  &none             &none              &trans  &trans
+&trans     &trans             &trans                &bootloader            &trans          &trans               &trans  &trans  &trans            &trans             &trans  &trans
             >;
         };
     };
