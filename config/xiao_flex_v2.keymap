@@ -38,12 +38,12 @@
 
         layer_2 {
             bindings = <
-&kp ESC    &trans             &trans                &trans                 &trans          &trans               &trans  &trans  &trans            &trans             &trans  &trans
-&kp TAB    &kp QUESTION       &kp PIPE              &kp MINUS              &kp PLUS        &kp DOUBLE_QUOTES    &trans  &trans  &kp LEFT_BRACE    &kt RIGHT_BRACE    &trans  &trans
-&kp TILDE  &kp BACKSLASH      &kp EQUAL             &kp COLON              &kp SEMICOLON   &kp SLASH            &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
-&trans     &kp LG(BACKSLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp SINGLE_QUOTE     &trans  &none   &kp LESS_THAN     &kp GREATER_THAN   &none   &trans
-&trans     &none              &none                 &none                  &none           &none                &trans  &trans  &none             &none              &trans  &trans
-&trans     &trans             &trans                &bootloader            &trans          &trans               &trans  &trans  &trans            &trans             &trans  &trans
+&kp ESC    &trans         &trans                &trans                 &trans          &trans               &trans  &trans  &trans            &trans             &trans  &trans
+&kp TAB    &kp QUESTION   &kp PIPE              &kp MINUS              &kp PLUS        &kp DOUBLE_QUOTES    &trans  &trans  &kp LEFT_BRACE    &kt RIGHT_BRACE    &trans  &trans
+&kp TILDE  &kp BACKSLASH  &kp EQUAL             &kp COLON              &kp SEMICOLON   &kp SLASH            &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans     &kp LG(SLASH)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp SINGLE_QUOTE     &trans  &none   &kp LESS_THAN     &kp GREATER_THAN   &none   &trans
+&trans     &none          &none                 &none                  &none           &none                &trans  &trans  &none             &none              &trans  &trans
+&trans     &trans         &trans                &bootloader            &trans          &trans               &trans  &trans  &trans            &trans             &trans  &trans
             >;
         };
     };
